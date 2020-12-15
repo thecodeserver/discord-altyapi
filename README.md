@@ -1,2 +1,2 @@
 # discord-altyapi
-**ayarlar.json** dosyasını dü<enleyerek kullanabilirsiniz
+**ayarlar.json** dosyasını düzenleyerek kullanabilirsiniz
