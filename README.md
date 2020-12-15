@@ -1,2 +1,2 @@
 # discord-altyapi
-**ayarlar.json** dosyasını düzenleyerek kullanabilirsiniz
+**ayarlar.json** dosyasındaki bot bilgilerini düzenleyerek botu çalıştırabilirsiniz
