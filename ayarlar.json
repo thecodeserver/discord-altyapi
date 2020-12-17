@@ -1,5 +1,9 @@
 {
-  "prefix": "Komut Ön Eki",
-  "token": "Bot Token'i",
-  "adminID": "Bot Sahibinin ID'si"
+  "prefix": "c!",
+  "token": "",
+  "adminID": [ 
+              "627821311091277836",
+              "678971432658534430",
+              "708579930979565588"
+             ]
 }

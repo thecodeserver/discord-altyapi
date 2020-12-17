@@ -9,7 +9,7 @@ exports.run = (client, message, args) => {
 exports.conf = {
     enabled: true,
     aliases: [],
-    permLevel: 3
+    permLevel: 4
 };
 
 exports.help = {

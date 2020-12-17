@@ -42,18 +42,18 @@ client.on('message', msg => {
 });
 
 client.on('message', message => {
-  if(message.content.toLowerCase() === `<@!738416853738848309>`) {
-    message.channel.send('Bot prefixim: ' + `**${prefix}**`)
+  if(message.content.toLowerCase() === `<@!${client.user.id}>`) {
+    message.channel.send('Bot prefixim: ' + `**${prefix}**`);
   }
 });
 
 client.elevation = message => {
-  if(!message.guild) {
-	return; }
+  if(!message.guild) return;
   let permlevel = 0;
   if (message.member.hasPermission("BAN_MEMBERS")) permlevel = 2;
   if (message.member.hasPermission("ADMINISTRATOR")) permlevel = 3;
-  if (message.author.id === adminID) permlevel = 4;
+  if (message.author.id === adminID[0]) permlevel = 4;
+    
   return permlevel;
 };
 

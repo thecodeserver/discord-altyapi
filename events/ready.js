@@ -7,9 +7,8 @@ module.exports = client => {
   console.log(chalk.yellow("Tüm komutlar yüklendi!"));
 
   let oyun = [
-      "Bot Altyapı"
+      "TheCode BOT | v.1.0.0"
   ]
-
   setInterval(function() {
 
     var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
